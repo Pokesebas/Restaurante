@@ -1,0 +1,289 @@
+body{
+  background-color: rgb(255, 101, 101);
+  border: 5px solid black;
+  max-height: 250vh;
+}
+
+header {
+  background-color: rgba(253, 253, 59, 0.959);
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  width: 99.70%;
+  height: 60px;
+  border: 5px solid black;
+  position: relative;
+} 
+
+.barra-de-navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.menu li a{
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+.menu li a:hover {
+  color: black;
+}
+
+
+
+.rs a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  left: 1380px;
+  bottom: 50px;
+}
+
+.rs a:hover{
+  color: red;
+}
+
+
+footer {
+  background-color: yellow;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  list-style: none;
+  position: relative;
+  bottom: 4320px;
+    text-align: left;
+    border: 5px solid;
+}
+
+.yadiel{
+ position: relative;
+ right: 48%;
+
+}
+
+.juan{
+  position: relative;
+  right: 20%;
+  bottom: 34px;
+}
+
+.dylans{
+  position: relative;
+  left: 10%;
+  bottom: 68px;
+}
+
+.jostin {
+  position: relative;
+  left: 43%;
+  bottom: 103px;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+main{
+  width: 90%;
+}
+
+.pote{
+  border: 5px solid black;
+  text-align: center;
+  width: 300px;
+  border-radius: 20px;
+  font-size: 30px;
+  position: relative;
+  left: 450px;
+  background-color: white;
+}
+
+.pez1{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+
+.pez2{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 400px;
+  bottom:504px;
+}
+
+.pez3{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 800px;
+  bottom:1005px;
+}
+
+.pez4{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  bottom:950px;
+}
+
+.pez5{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 400px;
+  bottom:1420px;
+}
+
+.pez6{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 800px;
+  bottom:1890px;
+}
+
+.pez7{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  bottom:1870px;
+}
+
+.pez8{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 400px;
+  bottom:2340px;
+}
+
+.pez9{
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+  font-size: 30px;
+  margin-left:10px ;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 800px;
+  bottom:2810px;
+}
+
+aside{
+  position: relative;
+  left: 80%;
+  background-color: rgba(253, 253, 59, 0.959);
+  width: 450px;
+  height: 1580px;
+  bottom: 4430px;
+  border: 5px solid black;
+}
+
+aside h2{
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid black;
+  width: 200px;
+  border-radius: 20px;
+  position: relative;
+  left: 60px;
+  background-color: white;
+  text-align: center;
+}
+
+aside img{
+  padding: 20px;
+  padding-right: 20px;
+  border-color: transparent;
+  width: 90%;
+  height: 1350px;
+}
+
+.caballo{
+  font-size: 24px;
+  position: relative;
+  bottom: 40px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 5px;
+  text-align: center;
+ }
+
+
+
+
+

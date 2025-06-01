@@ -1,0 +1,370 @@
+
+
+body{
+  background-color: rgb(255, 110, 110);
+  border: 5px solid black;
+  height: 200vh;
+}
+
+header {
+  background-color: rgba(253, 253, 59, 0.959);
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  border: 5px solid;
+} 
+
+header li{
+  list-style: none;
+}
+
+.barra-de-navegacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  transition: color 0.3s black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.menu li a:hover {
+  color: black;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.inicio, .dime, .pecera, .otra {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.rs a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  left: 1380px;
+  bottom: 50px;
+}
+
+.rs a:hover{
+  color: red;
+}
+
+main{
+  width: 74%;
+}
+
+footer {
+  background-color: yellow;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  list-style: none;
+  position: relative;
+  bottom: 3450px;
+    text-align: left;
+    border: 5px solid;
+}
+
+li{
+  list-style: none;
+}
+
+footer ul{
+  list-style: none;
+}
+
+
+
+.copa{
+  border: 5px solid black;
+  height: 300px;
+  position: relative;
+  left: 20px;
+  background-color: rgb(156, 156, 156);
+  color: black;
+  box-shadow: 10px 10px;
+  border-radius: 20px;
+}
+
+li img{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px ;
+}
+
+.copa1{
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+  color: black;
+}
+
+.copa2{
+  position: relative;
+  left: 550px;
+  bottom: 505px;
+  color: black;
+}
+
+.copa3{
+  position: relative;
+  left: 900px;
+  bottom: 710px;
+  color: black;
+  border-radius: 20px;
+}
+
+.copa4{
+  position: relative;
+  bottom: 720px;
+  left: 230px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.copa5{
+position: relative;
+bottom: 810px;
+left: 580px;
+width: 200px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+.copa6{
+position: relative;
+bottom: 890px;
+left: 940px;
+width: 200px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+.copa tr{
+  border: 5px solid ;
+}
+
+.dia{
+  text-align: center;
+  border-radius: 20px;
+  border: 5px solid;
+  width: 300px;
+  position: relative;
+  left: 500px;
+  background-color: white;
+  box-shadow: 5px 5px;
+}
+
+.bateria{
+  font-size: 40px;
+  position: relative;
+  bottom: 33px;
+  width: 177px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.almuerzo{
+  border: 5px solid black;
+  height: 300px;
+  position: relative;
+  left: 20px;
+  bottom: 800px;
+  background-color: rgb(156, 156, 156);
+  color: black;
+  box-shadow: 10px 10px;
+  border-radius: 20px;
+}
+
+.almuerzo1{
+  position: relative;
+  left: 200px;
+  bottom: 1100px;
+  color: black;
+}
+
+.almuerzo2{
+  position: relative;
+  left: 550px;
+  bottom: 1305px;
+  color: black;
+}
+
+.almuerzo3{
+  position: relative;
+  left: 900px;
+  bottom: 1510px;
+  color: black;
+  border-radius: 20px;
+}
+
+.almuerzo4{
+  position: relative;
+  bottom: 1515px;
+  left: 230px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.almuerzo5{
+  position: relative;
+  bottom: 1585px;
+  left: 580px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.almuerzo6{
+  position: relative;
+  bottom: 1655px;
+  left: 940px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.libro{
+  font-size: 40px;
+  position: relative;
+  bottom: 33px;
+  width: 177px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.cena{
+  border: 5px solid black;
+  height: 300px;
+  position: relative;
+  left: 20px;
+  bottom: 1560px;
+  background-color: rgb(156, 156, 156);
+  color: black;
+  box-shadow: 10px 10px;
+  border-radius: 20px;
+}
+
+.cena1{
+  position: relative;
+  left: 200px;
+  bottom: 1860px;
+  color: black;
+}
+
+.cena2{
+  position: relative;
+  left: 550px;
+  bottom: 2065px;
+  color: black;
+}
+
+.cena3{
+  position: relative;
+  left: 900px;
+  bottom: 2270px;
+  color: black;
+  border-radius: 20px;
+}
+
+.cena4{
+  position: relative;
+  bottom: 2280px;
+  left: 230px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.cena5{
+  position: relative;
+  bottom: 2345px;
+  left: 580px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.cena6{
+  position: relative;
+  bottom: 2410px;
+  left: 940px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.plato{
+  font-size: 40px;
+  position: relative;
+  bottom: 33px;
+  width: 177px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+
+}
+
+aside{
+  position: relative;
+  left: 106%;
+  background-color: rgba(253, 253, 59, 0.959);
+  width: 348px;
+  height: 1140px;
+  bottom: 3530px;
+  border: 5px solid black;
+}
+
+aside h2{
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid black;
+  width: 200px;
+  border-radius: 20px;
+  position: relative;
+  left: 60px;
+  background-color: white;
+}
+
+aside img{
+  padding: 20px;
+  padding-right: 20px;
+  border-color: transparent;
+  width: 90%;
+  height: 900px;
+}
+
+.caballo{
+  font-size: 24px;
+  position: relative;
+  bottom: 40px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 5px;
+ }
